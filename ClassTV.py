@@ -18,13 +18,14 @@ class TV:
         return self.volumeLevel
     def setVolume(self, volumeLevel):
         self.volumeLevel = volumeLevel
-    #volume up and down
-    def volumeUp(self):
-        self.volumeLevel += 1
-    def volumeDown(self):
-        self.volumeLevel -= 1
     #channel up and down
     def channelUp(self):
         self.channel += 1
     def channelDown(self):
         self.channel -= 1
+    #volume up and down
+    def volumeUp(self):
+        self.volumeLevel += 1
+    def volumeDown(self):
+        self.volumeLevel -= 1
+    
