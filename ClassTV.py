@@ -14,6 +14,8 @@ class TV:
     def getChannel(self):
         return self.channel
     #create set channel function 
+    def setChannel(self, channel):
+        self.channel = channel
     def getVolume(self):
         return self.volumeLevel
     def setVolume(self, volumeLevel):
