@@ -16,6 +16,10 @@ class TV:
     #create set channel function 
     def setChannel(self, channel):
         self.channel = channel
+        if self.channel > 120 or self.channel < 1:
+            print("TV's channel is out of range.")
+        else:
+            return self.channel
     def getVolume(self):
         return self.volumeLevel
     def setVolume(self, volumeLevel):
