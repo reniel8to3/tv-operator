@@ -12,6 +12,5 @@ def TestTV():
     tv2.setChannel(3)
     tv2.setVolume(2)
     print(f"TV2 is set to channel  {tv2.getChannel()} and its volume level is {tv2.getVolume()}")
-#def testtv function
-#create objects
+
 TestTV()
